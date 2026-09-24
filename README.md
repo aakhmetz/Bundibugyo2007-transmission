@@ -20,7 +20,7 @@ All 41 models used in the paper are collected in [src/stan_src](src/stan_src). T
 
 * The folder **data** contains the weekly counts of fatal and non-fatal cases digitized from Figure 2 of Wamala et al. (*Emerg Infect Dis* 2010;16:1087–92), both as extracted and as read by the script. The columns are described in [data/README.md](data/README.md).
 * The folder **figures** contains the figures produced by the script (PDF and PNG). [figures/README.md](figures/README.md) gives, for each file, its number in the paper and its caption.
-* The Stan output of all 147 fits (posterior draws of 5 chains per model, sampler logs, and the data and initial values of each fit), together with the summary tables behind Appendix Tables 1–4, is available in a shared [Dropbox folder](https://www.dropbox.com/scl/fo/fx43wb8v52uqlrb46p91d/AB2Vy0LIhPt8bENJw3TSqjU?rlkey=f6rz1fi4sav3zmy04izmxeevp&st=wtua2hy8&dl=0).
+* The Stan output of all 147 fits (posterior draws of 5 chains per model, sampler logs, and the data and initial values of each fit), together with the summary tables behind Appendix Tables 1–4, is available in a shared [Dropbox folder](https://www.dropbox.com/scl/fo/fx43wb8v52uqlrb46p91d/AB2Vy0LIhPt8bENJw3TSqjU?rlkey=f6rz1fi4sav3zmy04izmxeevp&st=wtua2hy8&dl=0). Summaries recomputed from these draws can differ in the last digit from the values in the paper, whose tables were compiled from an earlier run of the models (for the baseline model, the upper bound of the preintervention reproduction number is 2.37 here and 2.36 in the paper).
 
 ---------
 **Thank you for your interest to our work!** 

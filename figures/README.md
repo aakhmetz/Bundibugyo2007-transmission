@@ -18,3 +18,4 @@ Notes
 
 * Appendix Figures 2 and 3 compare the baseline (step) model with the three fits of the ramp model (τ<sub>rep</sub> = 2, 4 and 8 weeks); Appendix Figure 4 uses the 100 fits of the partial-ascertainment grid. See [src/README.md](../src/README.md) for the models.
 * In the published versions of Appendix Figures 1, 2, 4 and 5, the reproduction number is labeled R<sub>t</sub> instead of R<sub>eff</sub>; that change was made at the proof stage by editing the PDFs, and the files here are the unedited output of the script.
+* `forest_box_Bundibugyo` is the published version of the figure, in which the right-hand column was set to the values printed in the text and in Appendix Table 1; those come from an earlier run of the baseline model. The script output from the final run, whose draws are in the shared Dropbox folder, differs in the last digit of three intervals: 1.55 (1.02–2.37), 31.4 (21.7–42.8) and 19.3 (5.8–38.1). The boxes and whiskers are the same.
